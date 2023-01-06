@@ -4,13 +4,13 @@
 
 
 
-section{
-    background-image: url('../images/banner/banner3.png');
+.main-section{
+    background-image: url('../images/banner/banner2.png');
     display:flex;
     background-repeat: no-repeat;
     width:1600px;
     height:808px;
-    padding-bottom: 1500px;
+    padding-bottom:30px;
     
 }
 
@@ -20,21 +20,21 @@ section{
     position: absolute;
 }
 
-section h1{
+.main-section h1{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #151414;
     height: 300px;
     width: 500px;
     margin-top: 220px;
     margin-left: 700px;
     font-weight: 700;
     font-size: 40px;
-    /* padding-left: 120%; */
+    
 }
 
-section p{
+.main-section p{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #151414;
     height: 78px;
     width: 490px;
     margin-top:-130px;
@@ -44,16 +44,87 @@ section p{
 }
 
 .btn{
+    font-family: Arial, Helvetica, sans-serif;
     width: 160px;
     height: 65px;
-    background-color: #FFFFFF;
+    background-color: #F15B22;
+    color: white;
     text-align: center;
     padding: 20px 25px;
     border-radius: 5px;
     border: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-
     margin-top: 35%;
     margin-left:66%;
+}
+
+ /* 2nd banner section */
+
+.person{
+    display: flex;
+
+}
+
+.person-image{
+    display: flex;
+    margin-left: 150px;
+}
+
+.person-image h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 50px;
+
+}
+
+.mor-title{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    text-align: left;
+    margin-top: 420px;
+    margin-left: 770px;
+    color: #444343;
+
+}
+/* ------------------ */
+.my-plans{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font: 40px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+/* ------exp------------- */
+
+
+.exp{
+    display: flex;
+    gap: 170px;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.exp h3{
+
+    align-items: center;
+
+
+}
+
+.plans-title{
+    display: flex;
+    gap: 100px;
+    margin-left: 15%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.plans-title h3{
+    color:#151414 ;
+    font-weight: 700;
+    font-size: 30px;
 }
