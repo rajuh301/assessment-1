@@ -131,12 +131,7 @@
   
 }
 
-.exp h3{
 
-    align-items: center;
-
-
-}
 
 .plans-title{
     display: flex;
@@ -152,9 +147,6 @@
     font-size: 30px;
 }
 
-.web{
-    margin-left: 10px;
-}
 
 
 /* image- filter */
