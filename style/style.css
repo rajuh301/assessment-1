@@ -122,9 +122,12 @@
 
 .exp{
     display: flex;
-    gap: 180px;
+    gap: 120px;
     position: absolute;
-    margin-left: 20%;
+    margin-left: 12%;
+    align-items: center;
+    text-align: center;
+    
   
 }
 
@@ -157,7 +160,7 @@
 /* image- filter */
 
 .filter-section{
-    margin-top: 100px;
+    margin-top: 250px;
     background-image: url('../images/watch.png');
     display: flex;
     background-repeat: no-repeat;
