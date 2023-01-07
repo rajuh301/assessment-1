@@ -1,10 +1,20 @@
 *{
     margin-top:0;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
 
 
+
+
+
+
+
+
+
 .main-section{
+   
     background-image: url('../images/banner/banner2.png');
     display:flex;
     background-repeat: no-repeat;
@@ -30,19 +40,19 @@
 }
 
 .main-section h1{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: #151414;
     height: 300px;
     width: 500px;
     margin-top: 220px;
     margin-left: 700px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 65px;
     
 }
 
 .main-section p{
-    font-family: Arial, Helvetica, sans-serif;
+    
     color: #151414;
     height: 78px;
     width: 490px;
@@ -53,7 +63,7 @@
 }
 
 .btn{
-    font-family: Arial, Helvetica, sans-serif;
+    
     width: 160px;
     height: 65px;
     background-color: #F15B22;
@@ -80,7 +90,7 @@
 }
 
 .person-image h1{
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: 700;
     font-size: 40px;
     margin-top: 300px;
@@ -89,7 +99,7 @@
 }
 
 .mor-title{
-    font-family: Arial, Helvetica, sans-serif;
+    
     position: absolute;
     text-align: left;
     margin-top: 420px;
@@ -99,7 +109,7 @@
 }
 /* ------------------ */
 .my-plans{
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: 700;
     font: 40px;
     text-align: center;
@@ -128,7 +138,7 @@
 .plans-title{
     display: flex;
     gap: 100px;
-    margin-left: 15%;
+    margin-left: 12%;
     margin-top: 10%;
     text-align: center;
 }
@@ -137,6 +147,10 @@
     color:#151414 ;
     font-weight: 700;
     font-size: 30px;
+}
+
+.web{
+    margin-left: 10px;
 }
 
 
@@ -153,7 +167,7 @@
 
 
 .image-title{
-    font-family: Arial, Helvetica, sans-serif;
+
     position: absolute;
     font-weight: 700;
     font-size: 40px;
@@ -186,7 +200,7 @@ footer{
 }
 
 footer h4{
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: 700;
     font-size: 45px;
     color: #F8F8F8;
@@ -196,13 +210,13 @@ footer h4{
 
 footer p{
    
-    font-family: Arial, Helvetica, sans-serif;
+
     color: #FFFFFF;
     font-size: 16px;
 }
 
 .Subscribe h5{
-    font-family: Arial, Helvetica, sans-serif;
+
     font-size: 20px;
     margin-top: 20px;
 }
